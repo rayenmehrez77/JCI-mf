@@ -145,7 +145,6 @@ const Newsletter = () => {
         )}
       </div>
       <div className="absolute top-4 -right-2 lg:top-4 lg:right-20 lg:w-24 lg:h-24 w-8 h-8  bg-blue-600 rounded-full filter opacity-30"></div>
-      <div className="absolute -bottom-8 -right-2 lg:-bottom-32 lg:-right-24 lg:w-96 lg:h-96 w-32 h-32  bg-blue-600  rounded-full filter opacity-60"></div>
       <div className="absolute top-4 left-10 lg:top-4 lg:right-20 lg:w-14 lg:h-14 sm:w-8 sm:h-8 w-4 h-4  bg-orange rounded-full opacity-80"></div>
     </div>
   );

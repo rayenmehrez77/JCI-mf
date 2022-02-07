@@ -60,7 +60,7 @@ const Homepage = () => {
             >
               <img
                 src={facebook}
-                alt=""
+                alt="facebook logo"
                 className="w-full h-full cursor-pointer"
               />
             </a>
@@ -71,7 +71,7 @@ const Homepage = () => {
             >
               <img
                 src={instagram}
-                alt=""
+                alt="instagram logo"
                 className="w-full h-full mt-2 lg:mt-4 cursor-pointer"
               />
             </a>
@@ -82,7 +82,7 @@ const Homepage = () => {
             >
               <img
                 src={linkedIn}
-                alt=""
+                alt="linkedIn logo"
                 className="w-full h-full mt-2 lg:mt-4 cursor-pointer"
               />
             </a>

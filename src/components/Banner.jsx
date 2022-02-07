@@ -23,7 +23,7 @@ const Banner = ({ setToggleModal, toggleModal }) => {
       />
 
       <button
-        className="flex w-10 h-10 lg:h-16 lg:w-16 items-center hover:scale-105 hover:bg-brand-light rounded-full justify-center bg-brand absolute top-1/2 left-1/2 transform -translate-x-1/2 "
+        className="flex w-8 h-8 lg:h-16 lg:w-16 items-center hover:scale-105 hover:bg-brand-light rounded-full justify-center bg-brand absolute top-1/2 left-1/2 transform -translate-x-1/2 "
         onClick={() => setToggleModal(!toggleModal)}
       >
         <div className="animate-ping inline-flex h-full w-full rounded-full bg-sky-400 bg-brand absolute inset-0 duration-75"></div>
@@ -34,9 +34,9 @@ const Banner = ({ setToggleModal, toggleModal }) => {
         smooth={true}
         offset={50}
         duration={700}
-        className="hover:text-aqua transition delay-100 flex flex-col items-center animate-bounce cursor-pointer center lg:-mt-20 -mt-12"
+        className="hover:text-aqua transition delay-100 flex flex-col items-center animate-bounce cursor-pointer center lg:-mt-20 -mt-10"
       >
-        <MdKeyboardArrowDown className="lg:w-12 lg:h-12 w-8 h-8  text-gold" />
+        <MdKeyboardArrowDown className="lg:w-12 lg:h-12 w-8 h-8 sm:w-10 sm:h-10  text-gold" />
       </LinkScroll>
     </div>
   );

@@ -47,15 +47,12 @@ const Event = () => {
   });
 
   return (
-    <div
-      className="px-10 pt-4 pb-12 lg:p-18 max-w-full relative bg-white"
-      id="event"
-    >
-      <Calender className="w-20 h-20 lg:w-20 md:h-20 object-cover mx-auto mb-4" />
-      <h1 className="text-sm text-gray-900 sm:text-xl md:text-2xl lg:text-4xl text-center font-bold space-y-2 tracking-widest">
+    <div className="px-10 pt-4 pb-12 lg:p-18 max-w-full relative" id="event">
+      <Calender className="w-12 h-12 lg:w-20 md:h-20 object-cover mx-auto mb-5" />
+      <h1 className="text-sm sm:text-md text-gray-900 md:text-2xl lg:text-4xl w-full text-center font-bold space-y-2 tracking-widest">
         <span className="lg:block">L'ÉVÉNEMENT COMMENCERA DANS</span>
       </h1>
-      <p className="font-extrabold mt-4 text-center text-lg sm:text-xl tracking-wider text-gray-900">
+      <p className="font-extrabold mt-4 text-center text-sm sm:text-xl tracking-wider text-gray-900">
         {" "}
         Formation Dossier de sponsoring{" "}
       </p>
