@@ -12,7 +12,7 @@ const Event = () => {
   let interval = useRef();
 
   const starTimer = () => {
-    const countDownDate = new Date("February 02, 2022 00:00:00").getTime();
+    const countDownDate = new Date("February 12, 2022 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -57,11 +57,11 @@ const Event = () => {
       </h1>
       <p className="font-extrabold mt-4 text-center text-lg sm:text-xl tracking-wider text-gray-900">
         {" "}
-        Assemblée Générale de programme et de passation{" "}
+        Formation Dossier de sponsoring{" "}
       </p>
       <p className="font-extrabold mt-4 text-center text-sm sm:text-md tracking-wider text-gray-900">
         {" "}
-        - Mercredi 02 Février 2022 -{" "}
+        - Samedi 12 Février 2022 -{" "}
       </p>
       <div className="flex space-x-3 sm:space-x-6 mt-8 justify-center">
         <Timer type="jours" count={timerDays} color="navy" />

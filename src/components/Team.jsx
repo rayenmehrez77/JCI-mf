@@ -29,7 +29,6 @@ const Team = () => {
           Les conseillères de notre équipe{" "}
         </h1>
         <Swiper
-          spaceBetween={0}
           pagination
           navigation
           scrollbar
@@ -51,7 +50,6 @@ const Team = () => {
           Les Membres fondateurs{" "}
         </h1>
         <Swiper
-          spaceBetween={0}
           pagination
           navigation
           scrollbar

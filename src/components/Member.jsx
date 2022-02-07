@@ -2,13 +2,13 @@ import React from "react";
 import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { AiOutlineInstagram } from "react-icons/ai";
 
-const Member = ({ img, name, role, InstaLink, fbLink, LinkedInLink, bg }) => {
+const Member = ({ img, name, role, InstaLink, fbLink, LinkedInLink }) => {
   return (
-    <div className="flex flex-col  w-full items-center ">
+    <div className="flex flex-col mx-auto lg:w-full items-center  ">
       <div
         className={`z-10 w-full h-full hover:rounded-b-xl relative transition transform cursor-pointer `}
       >
-        <div className="h-56 w-56 rounded-full  mx-auto">
+        <div className="h-32 w-32 sm:w-42 sm:h-42 lg:w-56 lg:h-56 rounded-full  mx-auto">
           <img
             src={img}
             alt="name"

@@ -184,3 +184,13 @@
 .swiper {
   display: flex;
 }
+
+.swiper-pagination-bullet {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 20px !important;
+}

@@ -12,7 +12,7 @@ import { Link as LinkScroll } from "react-scroll";
 
 const Banner = ({ setToggleModal, toggleModal }) => {
   return (
-    <div className="relative mb-16">
+    <div className="relative mb-4">
       <ImgNextGen
         srcWebp={herowbp}
         srcJrx={heropxr}
@@ -36,7 +36,7 @@ const Banner = ({ setToggleModal, toggleModal }) => {
         duration={700}
         className="hover:text-aqua transition delay-100 flex flex-col items-center animate-bounce cursor-pointer center lg:-mt-20 -mt-12"
       >
-        <MdKeyboardArrowDown className="lg:w-12 lg:h-12 w-6 h-6 sm:w-8 sm:h-8 text-gold" />
+        <MdKeyboardArrowDown className="lg:w-12 lg:h-12 w-8 h-8  text-gold" />
       </LinkScroll>
     </div>
   );

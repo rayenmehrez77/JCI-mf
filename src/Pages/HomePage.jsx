@@ -13,6 +13,7 @@ import {
 import instagram from "../images/instagram.png";
 import facebook from "../images/facebook.png";
 import { MdKeyboardArrowUp } from "react-icons/md";
+import linkedIn from "../images/linkedin.png";
 
 const Homepage = () => {
   const [showButton, setShowButton] = useState(false);
@@ -52,22 +53,41 @@ const Homepage = () => {
       {showButton && (
         <div className="-left-1 top-96 w-10 space-y-3 lg:space-y-6 fixed rounded-md ">
           <div className="relative p-2 z-50">
-            <a href="https://www.facebook.com/JCI.mf.24" target="_blank">
-              <img src={facebook} alt="" className="w-full h-full" />
+            <a
+              href="https://www.facebook.com/JCI.mf.24"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={facebook}
+                alt=""
+                className="w-full h-full cursor-pointer"
+              />
             </a>
             <a
               href="https://www.instagram.com/jci.menzel_fersi/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={instagram}
-                target="_blank"
                 alt=""
-                className="w-full h-full mt-2 lg:mt-4"
+                className="w-full h-full mt-2 lg:mt-4 cursor-pointer"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/jci-menzel-fersi/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={linkedIn}
+                alt=""
+                className="w-full h-full mt-2 lg:mt-4 cursor-pointer"
               />
             </a>
             <span className="absolute flex-col p-2 flex justify-center items-center -top-4 -right-2 lg:-top-2 lg:-right-4 bg-red-500 text-xs text-white rounded-full w-7 h-7 lg:w-8 lg:h-8">
-              1.2K
+              1.7K
             </span>
           </div>
         </div>
