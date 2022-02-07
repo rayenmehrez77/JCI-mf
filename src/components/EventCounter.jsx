@@ -58,7 +58,7 @@ const Event = () => {
       </p>
       <p className="font-extrabold mt-4 text-center text-sm sm:text-md tracking-wider text-gray-900">
         {" "}
-        - Samedi 12 Février 2022 -{" "}
+        - Jeudi 10 Février 2022 -{" "}
       </p>
       <div className="flex space-x-3 sm:space-x-6 mt-8 justify-center">
         <Timer type="jours" count={timerDays} color="navy" />
