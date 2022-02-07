@@ -3,6 +3,7 @@ import { AiFillFacebook } from "react-icons/ai";
 import { RiInstagramLine } from "react-icons/ri";
 import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { addEmail } from "../firebase/firebase";
+import { AiFillLinkedin } from "react-icons/ai";
 import { Link as LinkScroll } from "react-scroll";
 import logo from "../images/logov1.png";
 
@@ -136,6 +137,9 @@ const Footer = ({ scrollToTop }) => {
         </a>
         <a href="https://www.instagram.com/jci.menzel_fersi/">
           <RiInstagramLine className="lg:w-8 lg:h-8 w-6 h-6 text-gray-800 hover:text-brand transition delay-50" />
+        </a>
+        <a href="https://www.linkedin.com/company/jci-menzel-fersi/">
+          <AiFillLinkedin className="lg:w-8 lg:h-8 w-6 h-6 text-gray-800 hover:text-brand transition delay-50" />
         </a>
       </div>
       <h3 className=" text-sm sm:text-md md:text-lg font-semibold tracking-wider text-center text-gray-800 mt-4">
