@@ -25,8 +25,8 @@ const Team = () => {
         ))}
       </div>
       <div>
-        <h1 className="text-center font-bold text-gray-700 mb-12">
-          Les conseillères de notre équipe{" "}
+        <h1 className="text-center font-bold text-gray-700 mb-12 capitalize">
+          Les conseillers de notre équipe{" "}
         </h1>
         <Swiper
           pagination
@@ -46,7 +46,7 @@ const Team = () => {
         </Swiper>
       </div>
       <div>
-        <h1 className="text-center font-bold text-gray-700 mt-12">
+        <h1 className="text-center font-bold text-gray-700 mt-12 capitalize">
           Les Membres fondateurs{" "}
         </h1>
         <Swiper

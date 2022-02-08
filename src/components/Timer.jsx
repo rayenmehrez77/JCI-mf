@@ -11,7 +11,7 @@ const Timer = ({ type, count, color }) => {
       </span>
       <div
         className={`absolute inset-0 w-full h-full bg-${color} rounded-full mix-blend-multiply filter blur-2xl opacity-40 animate-blob`}
-      ></div>
+      />
     </div>
   );
 };

@@ -41,7 +41,7 @@ const Actions = () => {
       className="w-full mt-10  transform -skew-y-2 credo bg-no-repeat bg-cover relative  max-h-2/4 lg:py-18 png px-4 lg:px-8 credo py-20"
       id="credo"
     >
-      <Title title="Notre Credo" des1="Nous crayons" ar="نعتقد" isWhite skew />
+      <Title title="Notre Credo" des1="Nous croyons" ar="نعتقد" isWhite skew />
       <div className="max-w-6xl mx-auto z-0 transform skew-y-2 ">
         {steps.map((step) => (
           <Action key={step.id} {...step} />

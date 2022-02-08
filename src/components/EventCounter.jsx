@@ -61,10 +61,10 @@ const Event = () => {
         - Jeudi 10 Février 2022 -{" "}
       </p>
       <div className="flex space-x-3 sm:space-x-6 mt-8 justify-center">
-        <Timer type="jours" count={timerDays} color="navy" />
-        <Timer type="HEURES" count={timerHours} color="seafoam" />
-        <Timer type="MINUTES" count={timerMinutes} color="gold" />
-        <Timer type="SECONDS" count={timerSeconds} color="aqua" />
+        <Timer type="jours" count={timerDays} color="aqua" />
+        <Timer type="HEURES" count={timerHours} color="gold" />
+        <Timer type="MINUTES" count={timerMinutes} color="seafoam" />
+        <Timer type="SECONDS" count={timerSeconds} color="navy" />
       </div>
     </div>
   );

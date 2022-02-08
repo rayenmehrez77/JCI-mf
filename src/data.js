@@ -152,20 +152,13 @@ export const data = {
     },
     {
       id: 6,
-      name: "Feriel Ladjimi",
-      role: "Membre",
-      img: require("./images/feriel.png").default,
-      fbLink: "https://www.facebook.com/feriel.lajimi.7965",
-    },
-    {
-      id: 7,
       name: "Manel Ghmadh",
       img: require("./images/manel.png").default,
       role: "Membre",
       fbLink: "https://www.facebook.com/manel.ghmadh",
     },
     {
-      id: 8,
+      id: 7,
       name: "Nejmeddine Ferjan",
       img: require("./images/naj.png").default,
       role: "Membre",

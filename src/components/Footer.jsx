@@ -41,7 +41,7 @@ const Footer = ({ scrollToTop }) => {
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              placeholder="Enter your email"
+              placeholder="Donner votre e-mail"
               className="flex-1 px-2 lg:px-4 bg-gray-100 outline-none h-full  text-gray-900 font-semibold "
               required
             />
@@ -52,7 +52,7 @@ const Footer = ({ scrollToTop }) => {
               type="submit"
               className="bg-brand h-full hidden md:flex text-sm items-center justify-center  rounded-full px-5 text-white outline-none"
             >
-              Subscribe
+              S'abonner
             </button>
           </div>
           <button
@@ -61,7 +61,7 @@ const Footer = ({ scrollToTop }) => {
             type="submit"
             className="bg-brand h-full md:hidden py-1 my-2  rounded-full px-5 text-white outline-none"
           >
-            Subscribe
+            S'abonner
           </button>
         </form>
       </div>
