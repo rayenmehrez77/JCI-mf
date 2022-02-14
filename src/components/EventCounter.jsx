@@ -12,7 +12,7 @@ const Event = () => {
   let interval = useRef();
 
   const starTimer = () => {
-    const countDownDate = new Date("February 13, 2022 00:00:00").getTime();
+    const countDownDate = new Date("February 16, 2022 00:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -54,17 +54,25 @@ const Event = () => {
       </h1>
       <p className="font-extrabold mt-4 text-center text-sm sm:text-xl tracking-wider text-gray-900">
         {" "}
-        Art Oratoire et Debating{" "}
+        ♦️ Planification d'une Action ♦️{" "}
       </p>
       <p className="font-extrabold mt-4 text-center text-sm sm:text-md tracking-wider text-gray-900">
         {" "}
-        - Jeudi 13 Février 2022 -{" "}
+        - Mercredi 16 Février 2022 -{" "}
       </p>
       <div className="flex space-x-3 sm:space-x-6 mt-8 justify-center">
         <Timer type="jours" count={timerDays} color="aqua" />
         <Timer type="HEURES" count={timerHours} color="gold" />
         <Timer type="MINUTES" count={timerMinutes} color="seafoam" />
         <Timer type="SECONDS" count={timerSeconds} color="navy" />
+      </div>
+      <div className="flex mt-8 items-center cursor-pointer text-xs text-center border px-6 w-28 mx-auto py-2 lg:text-sm lg:text-md rounded-full bg-brand text-white font-bold shadow-lg">
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSczvj8t5sjli_NunRvGW1ekTUEyNr7mgKWc5sEfUNZrWifcTA/viewform?fbclid=IwAR2wV30MYu18Jm00meGDpdgcQjKUMR_XNee7mJkOv9BkX5GOWmKHbovzxkc"
+          target="_blank"
+        >
+          Inscription
+        </a>
       </div>
     </div>
   );
