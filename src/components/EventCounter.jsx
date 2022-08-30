@@ -66,9 +66,12 @@ const Event = () => {
         <Timer type="MINUTES" count={timerMinutes} color="seafoam" />
         <Timer type="SECONDS" count={timerSeconds} color="navy" />
       </div>
-      <div className="flex mt-8 items-center cursor-pointer text-xs text-center border px-6 w-28 mx-auto py-2 lg:text-sm lg:text-md rounded-full bg-brand text-white font-bold shadow-lg">
-        <a href="https://forms.gle/5hyXY2VdT5iLaiZT7" target="_blank">
-          Inscription
+      <div className="flex mt-8 items-center cursor-pointer text-xs text-center border px-8 w-28 mx-auto py-2 lg:text-xs lg:text-md rounded-full bg-brand text-white font-bold shadow-lg">
+        <a
+          href="https://www.facebook.com/JCI.mf.24/posts/pfbid0pGwkHdTcVo3X5ERUVEpopd3JoArMpMwKFJfavjaDm3MmfwWk9N4dP9bmZ6hbNXC4l"
+          target="_blank"
+        >
+          Lire Plus
         </a>
       </div>
     </div>

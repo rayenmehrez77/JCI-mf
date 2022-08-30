@@ -2,14 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import { Link as LinkScroll } from "react-scroll";
-import { RiPhoneFill } from "react-icons/ri";
 import { IoClose } from "react-icons/io5";
-import { ImgNextGen } from "../components";
-
-import logowebp from "../images/logowbp.webp";
-import logojxr from "../images/logojxr.jxr";
-import logojp2 from "../images/logojp2.jp2";
-import logopng from "../images/logov1.png";
+import logopng from "../images/logoP.jpg";
 
 const Navbar = ({ clicked, setClicked, scrollToTop }) => {
   return (
@@ -18,11 +12,8 @@ const Navbar = ({ clicked, setClicked, scrollToTop }) => {
       } fixed top-0 left-0 z-50 justify-between  lg:justify-around px-4 lg:px-6 w-full bg-gray-50`}
     >
       <Link to="/" className="flex items-center cursor-pointer">
-        <ImgNextGen
-          srcWebp={logowebp}
-          srcJrx={logojxr}
-          srcJp2={logojp2}
-          fallback={logopng}
+        <img
+          src={logopng}
           alt="Banner image"
           className="lg:w-32 w-24 mt-2 object-cover "
         />
@@ -40,7 +31,7 @@ const Navbar = ({ clicked, setClicked, scrollToTop }) => {
       )}
 
       <div className="lg:flex items-center hidden">
-        <ul className="lg:flex items-center space-x-12 uppercase font-semibold text-gray-600 text-md hidden">
+        <ul className="lg:flex items-center space-x-10 uppercase font-semibold text-gray-900 text-md hidden">
           <li
             onClick={scrollToTop}
             className="cursor-pointer hover:text-aqua transition delay-100 h-full"
@@ -77,7 +68,7 @@ const Navbar = ({ clicked, setClicked, scrollToTop }) => {
               duration={700}
               className="cursor-pointer hover:text-aqua transition delay-100"
             >
-              Équipe
+              Membres
             </LinkScroll>
           </li>
           <li>
@@ -104,13 +95,13 @@ const Navbar = ({ clicked, setClicked, scrollToTop }) => {
           </li>
         </ul>
       </div>
-      <div className="lg:inline-block hidden">
+      {/* <div className="lg:inline-block hidden">
         <div className="flex items-center border px-6 py-2 text-sm lg:text-md rounded-full bg-brand text-white font-bold shadow-lg">
           <a href="https://forms.gle/5hyXY2VdT5iLaiZT7" target="_blank">
             Inscription
           </a>
         </div>
-      </div>
+      </div> */}
     </header>
   );
 };

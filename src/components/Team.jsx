@@ -18,7 +18,7 @@ SwiperCore.use([Pagination, Navigation, Scrollbar]);
 const Team = () => {
   return (
     <div className="py-16 min-h-screen bg-white  " id="team">
-      <Title title="Notre équipe" des1="Les membres bureaux de notre équipe" />
+      <Title title="Membres" des1="Les membres bureaux de notre équipe" />
       <div className="grid sm:grid-cols-2 grid-cols-1 lg:grid-cols-3 mt-8 lg:p-20 p-12 gap-8 max-w-6xl mx-auto ">
         {data.officeMembers?.map((member) => (
           <Member key={member.id} {...member} />
@@ -47,7 +47,7 @@ const Team = () => {
       </div>
       <div>
         <h1 className="text-center font-bold text-gray-700 mt-12 capitalize">
-          Les Membres fondateurs{" "}
+          Les Membres Fondateurs{" "}
         </h1>
         <Swiper
           pagination
