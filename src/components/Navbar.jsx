@@ -15,7 +15,7 @@ const Navbar = ({ clicked, setClicked, scrollToTop }) => {
         <img
           src={logopng}
           alt="Banner image"
-          className="lg:w-32 w-24 mt-2 object-cover "
+          className="lg:w-28 w-24 mt-2 object-cover "
         />
       </Link>
       {clicked ? (
@@ -31,7 +31,7 @@ const Navbar = ({ clicked, setClicked, scrollToTop }) => {
       )}
 
       <div className="lg:flex items-center hidden">
-        <ul className="lg:flex items-center space-x-10 uppercase font-semibold text-gray-900 text-md hidden">
+        <ul className="lg:flex items-center space-x-8 uppercase font-semibold text-gray-900 text-sm hidden">
           <li
             onClick={scrollToTop}
             className="cursor-pointer hover:text-aqua transition delay-100 h-full"

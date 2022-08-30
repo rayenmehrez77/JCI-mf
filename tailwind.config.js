@@ -26,6 +26,7 @@ module.exports = {
       },
       fontFamily: {
         signika: ["Signika Negative", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
       },
     },
   },

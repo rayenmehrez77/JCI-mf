@@ -52,7 +52,7 @@ const Event = () => {
       <h1 className="text-sm sm:text-md text-gray-900 md:text-2xl lg:text-4xl w-full text-center font-bold space-y-2 tracking-widest">
         <span className="lg:block">L'ÉVÉNEMENT COMMENCERA DANS</span>
       </h1>
-      <p className="font-extrabold mt-4 text-center text-sm sm:text-xl tracking-wider text-gray-900">
+      <p className="font-extrabold mt-4 text-center text-md sm:text-xl tracking-wider text-gray-900">
         {" "}
         ♦️ إحياء السوق الأسبوعية ♦️{" "}
       </p>
