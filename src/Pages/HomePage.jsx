@@ -87,7 +87,7 @@ const Homepage = () => {
               />
             </a>
             <span className="absolute flex-col p-2 flex justify-center items-center -top-4 -right-2 lg:-top-2 lg:-right-4 bg-red-500 text-xs text-white rounded-full w-7 h-7 lg:w-8 lg:h-8">
-              1.7K
+              2.3K
             </span>
           </div>
         </div>
