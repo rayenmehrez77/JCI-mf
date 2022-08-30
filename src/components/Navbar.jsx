@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FiMenu } from "react-icons/fi";
 import { Link as LinkScroll } from "react-scroll";
 import { IoClose } from "react-icons/io5";
-import logopng from "../images/logoP.jpg";
+import logopng from "../images/logoP.png";
 
 const Navbar = ({ clicked, setClicked, scrollToTop }) => {
   return (

@@ -5,7 +5,7 @@ import { addDoc, collection, getFirestore } from "firebase/firestore";
 import { addEmail } from "../firebase/firebase";
 import { AiFillLinkedin } from "react-icons/ai";
 import { Link as LinkScroll } from "react-scroll";
-import logo from "../images/logov1.png";
+import logo from "../images/logoP.png";
 
 const Footer = ({ scrollToTop }) => {
   const [email, setEmail] = useState("");
@@ -105,7 +105,7 @@ const Footer = ({ scrollToTop }) => {
             duration={700}
             className="cursor-pointer"
           >
-            Équipe
+            Membre
           </LinkScroll>
         </li>
         <li className="hover:text-aqua">
@@ -147,7 +147,7 @@ const Footer = ({ scrollToTop }) => {
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://rayenmehrez.me/"
+          href="https://rayenmehrez.netlify.app/"
           className="text-brand font-bold"
         >
           Rayen Mehrez
