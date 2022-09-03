@@ -49,7 +49,7 @@ const Event = () => {
   return (
     <div className="px-10 pt-4 pb-12 lg:p-18 max-w-full relative" id="event">
       <Calender className="w-12 h-12 lg:w-20 md:h-20 object-cover mx-auto mb-5" />
-      <p className="font-extrabold mt-2 text-center text-xl sm:text-2xl tracking-wider text-gray-900">
+      <p className="font-extrabold mt-2 text-center text-2xl sm:text-4xl tracking-wider text-brand">
         {" "}
         ♦️ إحياء السوق الأسبوعية ♦️{" "}
       </p>
@@ -58,7 +58,7 @@ const Event = () => {
         {" "}
         - Dimanche 04 Septembre 2022 -{" "}
       </p>
-      <h1 className="text-sm my-8 sm:text-md text-gray-900 md:text-xl lg:text-2xl w-full text-center font-bold space-y-2 tracking-widest">
+      <h1 className="text-sm my-6 sm:text-md text-gray-900 md:text-xl lg:text-2xl w-full text-center font-bold space-y-2 tracking-widest">
         <span className="lg:block">LA MANIFESTATION COMMENCERA DANS</span>
       </h1>
       <div className="flex space-x-3 sm:space-x-6 mt-8 justify-center">
