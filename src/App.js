@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
 import { Route, Switch } from "react-router";
-
-// import MessengerCustomerChat from "react-messenger-customer-chat";
 import { Dropdown, Navbar, Spinner, ErrorBoundary } from "./components";
 import { HomePage } from "./Pages";
 
@@ -68,10 +66,6 @@ function App() {
           <Route exact path="/" component={HomePage} />
         </ErrorBoundary>
       </Switch>
-      {/* <MessengerCustomerChat
-        pageId={process.env.PAGE_ID}
-        appId={process.env.APP_ID}
-      /> */}
     </div>
   );
 }

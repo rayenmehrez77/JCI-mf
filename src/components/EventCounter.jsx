@@ -12,7 +12,7 @@ const Event = () => {
   let interval = useRef();
 
   const starTimer = () => {
-    const countDownDate = new Date("Septembre 04, 2022 06:00:00").getTime();
+    const countDownDate = new Date("Septembre 12, 2022 08:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -49,14 +49,14 @@ const Event = () => {
   return (
     <div className="px-10 pt-4 pb-12 lg:p-18 max-w-full relative" id="event">
       <Calender className="w-12 h-12 lg:w-20 md:h-20 object-cover mx-auto mb-5" />
-      <p className="font-extrabold mt-2 text-center text-2xl sm:text-4xl tracking-wider text-brand">
+      <p className="font-extrabold mt-2 text-center text-xl sm:text-4xl tracking-wider text-brand">
         {" "}
-        ♦️ إحياء السوق الأسبوعية ♦️{" "}
+        ♦️ العودة المدرسية ♦ ️{" "}
       </p>
 
       <p className="font-extrabold mt-4 text-center text-sm sm:text-md tracking-wider text-gray-900">
         {" "}
-        - Dimanche 04 Septembre 2022 -{" "}
+        - Lundi 12 Septembre 2022 -{" "}
       </p>
       <h1 className="text-sm my-6 sm:text-md text-gray-900 md:text-xl lg:text-2xl w-full text-center font-bold space-y-2 tracking-widest">
         <span className="lg:block">LA MANIFESTATION COMMENCERA DANS</span>
@@ -69,7 +69,7 @@ const Event = () => {
       </div>
       <div className="flex mt-5 items-center cursor-pointer text-xs text-center border px-8 w-28 mx-auto py-2 lg:text-xs lg:text-md rounded-full bg-brand text-white font-bold shadow-lg">
         <a
-          href="https://www.facebook.com/JCI.mf.24/posts/pfbid0pGwkHdTcVo3X5ERUVEpopd3JoArMpMwKFJfavjaDm3MmfwWk9N4dP9bmZ6hbNXC4l"
+          href="https://www.facebook.com/JCI.mf.24/posts/pfbid0y2zdSntBfjCcEL6VpVG94UAQcK79jyg6WY9XdCSUj1Za5tfgC2bhbz7AoC4nYNgQl"
           target="_blank"
         >
           Lire Plus
