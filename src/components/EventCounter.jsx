@@ -12,7 +12,7 @@ const Event = () => {
   let interval = useRef();
 
   const starTimer = () => {
-    const countDownDate = new Date("Septembre 12, 2022 08:00:00").getTime();
+    const countDownDate = new Date("December 19, 2022 16:00:00").getTime();
 
     interval = setInterval(() => {
       const now = new Date().getTime();
@@ -51,12 +51,12 @@ const Event = () => {
       <Calender className="w-12 h-12 lg:w-20 md:h-20 object-cover mx-auto mb-5" />
       <p className="font-extrabold mt-2 text-center text-xl sm:text-4xl tracking-wider text-brand">
         {" "}
-        ♦️ العودة المدرسية ♦ ️{" "}
+        ♦️ Assemblée Générale de programme et de passation ♦ ️{" "}
       </p>
 
       <p className="font-extrabold mt-4 text-center text-sm sm:text-md tracking-wider text-gray-900">
         {" "}
-        - Lundi 12 Septembre 2022 -{" "}
+        - Lundi 19 décembre 2022 -{" "}
       </p>
       <h1 className="text-sm my-6 sm:text-md text-gray-900 md:text-xl lg:text-2xl w-full text-center font-bold space-y-2 tracking-widest">
         <span className="lg:block">LA MANIFESTATION COMMENCERA DANS</span>
